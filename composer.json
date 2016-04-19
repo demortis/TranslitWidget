@@ -1,0 +1,21 @@
+{
+  "name" : "digitalmonk/yii2-widget-translit",
+  "description" : "Translit input widget",
+  "keywords" : ["yii2", "translit", "input", "widget"],
+  "type" : "yii2-extension",
+  "license" : "BSD-3-Clause",
+  "authors" : [
+    {
+      "name" : "Eugene A.",
+      "email" : "compuniti@mail.ru"
+    }
+  ],
+  "require" : {
+    "yiisoft/yii2" : "*"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "digitalmonk\\widgets\\TranslitWidget\\" : ""
+    }
+  }
+}
