@@ -11,16 +11,34 @@ use yii\widgets\InputWidget;
 
 class TranslitWidget extends InputWidget
 {
+    /**
+     * @var string
+     */
     public $class = 'translit-input';
 
+    /**
+     * @var string
+     */
     public $name = 'translit-input';
 
+    /**
+     * @var string
+     */
     public $translitTargetClass = 'translit-input';
 
+    /**
+     * @var string
+     */
     private $input = 'input';
 
+    /**
+     * @var array
+     */
     private $params = [];
 
+    /**
+     * @throws \yii\base\InvalidConfigException
+     */
     public function init()
     {
         parent::init();
@@ -47,6 +65,9 @@ class TranslitWidget extends InputWidget
         ];
     }
 
+    /**
+     * @return string
+     */
     public function run()
     {
         return $this->render('index', $this->params);
