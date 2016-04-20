@@ -20,7 +20,7 @@
             'translitParams' : translitParams
         }, options);
 
-        this.on('keyup', function(){
+        this.on('keyup change', function(){
             var text = $(this).val(),
                 translitText = '', letter;
 

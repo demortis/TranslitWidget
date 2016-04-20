@@ -4,10 +4,10 @@
  * @date: 19.04.16
  * @time: 13:15
  */
-\app\digitalmonk\widgets\TranslitWidget\assets\TranslitWidgetAssets::register($this);
+digitalmonk\widgets\TranslitWidget\assets\TranslitWidgetAssets::register($this);
 ?>
 
-<?=\yii\helpers\Html::input('text', $param_one, $param_two, $options)?>
+<?=\yii\helpers\Html::$input('text', $param_one, $param_two, $options)?>
 
 
 <?php

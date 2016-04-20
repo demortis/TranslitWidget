@@ -5,7 +5,7 @@
  * @time: 13:17
  */
 
-namespace app\digitalmonk\widgets\TranslitWidget\assets;
+namespace digitalmonk\widgets\TranslitWidget\assets;
 
 
 use yii\web\AssetBundle;
